@@ -1,4 +1,4 @@
-import PostCard from "./Components//PostCard";
+import PostCard from "./PostCard";
 
 export default function PostsContainer({ posts }) {
   return (

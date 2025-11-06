@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import PostForm from "./Components//PostForm";
-import PostsContainer from "./Components//PostsContainer";
+import PostForm from "./PostForm";
+import PostsContainer from "./PostsContainer";
 
 export default function FakeApiApp() {
   // 1️ States
@@ -39,7 +39,7 @@ export default function FakeApiApp() {
     setNewPost({ title: "", body: "" });
   };
 
-  // 4️ Display
+  // 4️Display
   return (
     <div className="app">
       <h1>Fake API App</h1>
